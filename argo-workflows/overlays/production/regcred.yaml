@@ -1,0 +1,13 @@
+{
+    "kind": "Secret",
+    "apiVersion": "v1",
+    "metadata": {
+        "name": "regcred",
+        "namespace": "workflows",
+        "creationTimestamp": null
+    },
+    "data": {
+        ".dockerconfigjson": "eyJhdXRocyI6eyJodHRwczovL2luZGV4LmRvY2tlci5pby92MS8iOnsidXNlcm5hbWUiOiJbLi4uXSIsInBhc3N3b3JkIjoiWy4uLl0iLCJlbWFpbCI6Im5pYXpodXNzYWluMTk5MEBnbWFpbC5jb20iLCJhdXRoIjoiV3k0dUxsMDZXeTR1TGwwPSJ9fX0="
+    },
+    "type": "kubernetes.io/dockerconfigjson"
+}
